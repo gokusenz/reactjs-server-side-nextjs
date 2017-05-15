@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/gokusenz/reactjs-server-side-nextjs/issues"
   },
-  "homepage": "https://github.com/gokusenz/reactjs-server-side-nextjs#readme"
+  "homepage": "https://github.com/gokusenz/reactjs-server-side-nextjs#readme",
+  "dependencies": {
+    "next": "^2.3.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
 }

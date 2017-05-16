@@ -1,0 +1,17 @@
+// @import 'normalize.css';
+
+$primary-color: grey;
+$secondary-color: lightgrey;
+
+.comment-list {
+  font-size: 20px;
+}
+
+.comment-box {
+  border: 1px solid $primary-color;
+  margin: 10px;
+}
+
+.grey {
+  border-bottom: 1px solid $secondary-color;
+}

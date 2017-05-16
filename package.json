@@ -1,26 +1,35 @@
 {
-  "name": "reactjs-server-side-nextjs",
+  "name": "nextjs-ssr-starter",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "repository": "git@gitlab.thinknet.co.th:naruepat/nextjs-ssr-starter.git",
+  "author": "Naruepat <naruepat.p@gmail.com>",
+  "license": "MIT",
   "scripts": {
-    "dev": "next",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gokusenz/reactjs-server-side-nextjs.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gokusenz/reactjs-server-side-nextjs/issues"
-  },
-  "homepage": "https://github.com/gokusenz/reactjs-server-side-nextjs#readme",
   "dependencies": {
-    "next": "^2.3.1",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "autoprefixer": "6.7.6",
+    "axios": "^0.16.1",
+    "babel-plugin-module-resolver": "2.5.0",
+    "babel-plugin-wrap-in-js": "^1.1.0",
+    "glob": "7.1.1",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "latest",
+    "next-redux-wrapper": "^1.0.0",
+    "next-routes": "^1.0.17",
+    "node-sass": "^4.4.0",
+    "normalize.css": "5.0.0",
+    "postcss-easy-import": "2.0.0",
+    "postcss-loader": "1.3.3",
+    "raw-loader": "^0.5.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0",
+    "sass-loader": "^4.1.1"
   }
 }

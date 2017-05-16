@@ -2,8 +2,8 @@
   "name": "nextjs-ssr-starter",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@gitlab.thinknet.co.th:naruepat/nextjs-ssr-starter.git",
-  "author": "Naruepat <naruepat.p@gmail.com>",
+  "repository": "",
+  "author": "",
   "license": "MIT",
   "scripts": {
     "dev": "node server.js",
